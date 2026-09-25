@@ -1,0 +1,61 @@
+/* Personalizaciones sobre la plantilla Start Bootstrap - Resume */
+
+/* Avatar con iniciales (reemplaza la foto de perfil) */
+.avatar-initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+/* Subtítulo (rol) debajo del nombre */
+.role {
+  font-family: "Saira Extra Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  color: #6c757d;
+}
+
+/* Viñetas de experiencia */
+.resume-item ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+.resume-item li {
+  margin-bottom: 0.35rem;
+}
+
+/* Etiquetas de habilidades */
+.skill-group {
+  margin-bottom: 2rem;
+}
+.skill-tag {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  margin: 0 0.4rem 0.5rem 0;
+  border: 1px solid #ced4da;
+  border-radius: 2rem;
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-size: 0.95rem;
+}
+
+/* Tarjeta de proyecto */
+.project-card {
+  border-left: 4px solid #3d4f5f;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+}
+
+.site-footer {
+  font-size: 0.9rem;
+  color: #6c757d;
+}

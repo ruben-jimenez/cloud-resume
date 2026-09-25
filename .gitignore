@@ -1,0 +1,23 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Credentials and Secrets
+.env
+*.pem
+*.key
+.aws/
+credentials
+
+# Text editors
+.vscode/
+.idea/
+
+# draw.io backups
+*.drawio.bkp
+.$*.drawio*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
