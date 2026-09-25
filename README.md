@@ -10,8 +10,8 @@ _Diagram coming soon in `docs/`._
 
 ## Repository structure
 
-site/ Static website (the only folder deployed to S3)
-docs/ Architecture diagram and screenshots
+- `site/` – Static website (the only folder deployed to S3)
+- `docs/` – Architecture diagram and screenshots
 
 
 ## Deploy
