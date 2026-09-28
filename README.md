@@ -29,6 +29,7 @@ My online resume, hosted on AWS as a hands-on cloud project.
 - **HTTPS everywhere:** HTTP requests are redirected to HTTPS, using an ACM certificate issued in `us-east-1` (required by CloudFront).
 - **No long-lived credentials:** the AWS CLI uses temporary credentials through `aws login`. I removed old access keys and an unused IAM user left over from a previous lab.
 - **Account hygiene:** MFA on root and admin users, a dedicated admin user for daily work, and a monthly budget alert.
+- **Anti-spoofing:** the domain does not send email, so SPF (`v=spf1 -all`) and DMARC (`p=reject`) records prevent others from impersonating it.
 
 ## Repository structure
 
